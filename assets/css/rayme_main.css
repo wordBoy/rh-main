@@ -1,0 +1,29 @@
+
+/**
+* Rayme's Hope - Main CSS file
+*/
+
+.disabled
+{
+    color: #afcacf !important;
+}
+
+#hero-wrapper {
+    /*background-image: url('../imgs/istock-draft/istockphoto-998700272-1024x682-edit1.jpg');*/
+    background-image: url('../imgs/istock-final/iStock-998700272-flipped-horiz.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-wrapper-minimal {
+    background-image: url('../imgs/istock-final/iStock-998700272-ht100px.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-wrapper img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
